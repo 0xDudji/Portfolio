@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import { SiTryhackme, SiHtmlacademy, } from "react-icons/si";
+import { SiTryhackme, } from "react-icons/si";
 import { ImBooks } from "react-icons/im";
 import Image from 'next/image'
 import { HiAcademicCap } from "react-icons/hi";
