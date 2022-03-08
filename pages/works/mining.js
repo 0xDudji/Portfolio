@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <br></br>
       <Box>
-        <iframe width="100%" height="400" src="https://youtube.com/embed/VLx5aTdTXFE" frameBorder="0" allowFullscreen></iframe>
+        <iframe width="100%" height="400" src="https://youtube.com/embed/VLx5aTdTXFE" frameBorder="0" allowFullScreen></iframe>
       </Box>
       </List>
       <Center> <Heading as="h3" variant="section-title">
