@@ -4,10 +4,10 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
+  ListIcon,
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
@@ -16,11 +16,11 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import { SiTryhackme } from "react-icons/si";
+import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
+import { SiTryhackme, SiHtmlacademy, } from "react-icons/si";
+import { ImBooks } from "react-icons/im";
 import Image from 'next/image'
-import { useToast } from '@chakra-ui/react'
+import { HiAcademicCap } from "react-icons/hi";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -124,6 +124,31 @@ const Home = () => (
             {/* Drawing */}
           {/* </Link> */}
            I enjoy most of my time being outdoors. I practise boxing and Judo. When forced indoors, I listen to podcasts but I also follow a number of sci-fi and fantasy genre movies. Last but not least, I would like to improve my cooking skills.
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.9}>
+        <Heading as="h3" variant="section-title">
+          In 2022 I will
+        </Heading>
+        <Paragraph>
+          {/* {''} */}
+          {/* <Link href="https://illust.odoruinu.net/" target="_blank"> */}
+            {/* Drawing */}
+          {/* </Link> */}
+          <List spacing={3}>
+  <ListItem>
+    <ListIcon as={HiAcademicCap} color='teal.500' />
+    Pass all my courses so I can finish my last year abroad.
+  </ListItem>
+  <ListItem>
+    <ListIcon as={ImBooks} color='teal.500' />
+    Achieve the {''}
+           <Link href="https://www.comptia.org/certifications/pentest" target="_blank">
+          CompTIA PenTest+
+          </Link> certification.
+  </ListItem>
+</List>
         </Paragraph>
       </Section>
 

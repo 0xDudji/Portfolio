@@ -77,18 +77,6 @@ const Navbar = props => {
           <LinkItem href="/experience" path={path}>
             Experience
           </LinkItem>
-          <LinkItem
-            target="_blank"
-            href="/works/cyberbullet"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <GiBulletBill />
-            Cyberbullet
-          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">

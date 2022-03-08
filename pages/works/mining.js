@@ -1,11 +1,9 @@
 import { Container, Badge, Link, List, ListItem, Box, Heading, Center} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
-import { BioSection, BioYear } from '../../components/bio'
-import Section from '../../components/section'
+import {BioYear } from '../../components/bio'
 
 
 const Work = () => (
