@@ -123,7 +123,7 @@ const Home = () => (
           {/* <Link href="https://illust.odoruinu.net/" target="_blank"> */}
             {/* Drawing */}
           {/* </Link> */}
-           I enjoy most of my time being outdoors. I practise boxing and Judo. When forced indoors, I listen to podcasts but I also follow a number of sci-fi and fantasy genre movies. Last but not least, I would like to improve my cooking skills.
+           I enjoy most of my time being outdoors. I practise boxing and Judo. When forced indoors, I listen to podcasts but I also follow a number of sci-fi and fantasy genre movies.
         </Paragraph>
       </Section>
 
