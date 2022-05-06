@@ -76,8 +76,10 @@ const Navbar = props => {
           <LinkItem href="/experience" path={path}>
             Experience
           </LinkItem>
+          <LinkItem href="../public/cv.pdf" path={path}>
+          Curriculum vitae
+          </LinkItem>
         </Stack>
-
         <Box flex={1} align="right">
           <ThemeToggleButton />
 

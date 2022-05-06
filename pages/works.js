@@ -5,6 +5,9 @@ import { WorkGridItem } from '../components/grid-item'
 import mining from '../public/images/works/mining.png'
 import thumbPichu2 from '../public/images/works/Bitgoonz.png'
 import cb from '../public/images/works/cb.png'
+import jm from '../public/images/works/jm.png'
+import powershellcrypto from '../public/images/works/powershellcrypto.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -14,6 +17,20 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="cryptopowershell" title="Crypto data visualization in PowerShell" thumbnail={powershellcrypto}>
+          A project for the course, Windows system administration.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="systemsengineering"
+            title="Systems Engineering"
+            thumbnail={jm}
+          >
+            Solar solution project for the course, Systems Engineering and Analysis.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="mining" title="Mining assistent" thumbnail={mining}>
           A service where I help new miners setup their rigs. Miners are essentially getting paid for their work as auditors.
@@ -28,6 +45,8 @@ const Works = () => (
             Work in progress.
           </WorkGridItem>
         </Section>
+
+        
 
         {/* <Section delay={0.1}>
           <WorkGridItem
