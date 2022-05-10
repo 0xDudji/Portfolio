@@ -21,7 +21,7 @@ import { saveAs } from "file-saver";
 
 const saveFile = () => {
   saveAs(
-    "../public/cv.pdf",
+    "cv.pdf",
     "cv.pdf"
   );
 };
