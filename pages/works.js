@@ -19,12 +19,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
       <Section>
-          <WorkGridItem id="projecthosting" title="Website hosting platform" thumbnail={projecthosting}>
-          Website hosting platform.
+          <WorkGridItem id="projecthosting" title="Project hosting" thumbnail={projecthosting}>
+          A website hosting platform.
           </WorkGridItem>
         </Section>
       <Section>
-          <WorkGridItem id="smartcontractattacks" title="Blockchain hacking room on TryHackMe" thumbnail={smartcontractattacks}>
+          <WorkGridItem id="smartcontractattacks" title="Smart Contract Attacks" thumbnail={smartcontractattacks}>
           Blockchain hacking room on TryHackMe.
           </WorkGridItem>
         </Section>
