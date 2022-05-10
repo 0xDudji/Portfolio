@@ -112,6 +112,9 @@ const Navbar = props => {
                 <NextLink href="/experience" passHref>
                   <MenuItem as={Link}>Experience</MenuItem>
                 </NextLink>
+                <NextLink href="/experience" passHref>
+                  <MenuItem as={Link} onClick={saveFile}>Curriculum vitae</MenuItem>
+                </NextLink>
                 <MenuItem
                   as={Link}
                   href="google.com"
