@@ -7,6 +7,8 @@ import thumbPichu2 from '../public/images/works/Bitgoonz.png'
 import cb from '../public/images/works/cb.png'
 import jm from '../public/images/works/jm.png'
 import powershellcrypto from '../public/images/works/powershellcrypto.png'
+import projecthosting from '../public/images/works/projecthosting.png'
+import smartcontractattacks from '../public/images/works/smartcontractattacks.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -16,6 +18,16 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="projecthosting" title="Website hosting platform" thumbnail={projecthosting}>
+          Website hosting platform.
+          </WorkGridItem>
+        </Section>
+      <Section>
+          <WorkGridItem id="smartcontractattacks" title="Blockchain hacking room on TryHackMe" thumbnail={smartcontractattacks}>
+          Blockchain hacking room on TryHackMe.
+          </WorkGridItem>
+        </Section>
       <Section>
           <WorkGridItem id="cryptopowershell" title="Crypto data visualization in PowerShell" thumbnail={powershellcrypto}>
           A project for the course, Windows system administration.
