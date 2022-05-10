@@ -1,13 +1,11 @@
 import {
   Container,
   Badge,
-  Link,
   List,
   ListItem,
   UnorderedList,
   Heading,
-  Center,
-  Button
+  Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -31,7 +29,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Mission</Meta>
-          <span>Because the reversable counter is dissapearing, you're going to have to register the excess energy that you generate. If your solar panels generate less energy than usual, you're going to have to buy it back at a certain rate, we want to we want to avoid this as much as possible. There was need to for a feature to monitor the generated enery as well. </span>
+          <span>Because the reversable counter is dissapearing, you&apos;re going to have to register the excess energy that you generate. If your solar panels generate less energy than usual, you&apos;re going to have to buy it back at a certain rate, we want to we want to avoid this as much as possible. There was need to for a feature to monitor the generated enery as well. </span>
         </ListItem>
       </List>
 
