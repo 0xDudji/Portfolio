@@ -1,3 +1,4 @@
+import React from "react";
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -16,6 +17,15 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import { saveAs } from "file-saver";
+
+const saveFile = () => {
+  saveAs(
+    "../public/cv.pdf",
+    "cv.pdf"
+  );
+};
+
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -34,6 +44,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     </NextLink>
   )
 }
+
 
 const Navbar = props => {
   const { path } = props
@@ -76,7 +87,7 @@ const Navbar = props => {
           <LinkItem href="/experience" path={path}>
             Experience
           </LinkItem>
-          <LinkItem href="../public/cv.pdf" path={path}>
+          <LinkItem href="" onClick={saveFile} path={path}>
           Curriculum vitae
           </LinkItem>
         </Stack>

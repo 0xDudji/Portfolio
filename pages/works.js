@@ -8,6 +8,21 @@ import cb from '../public/images/works/cb.png'
 import jm from '../public/images/works/jm.png'
 import powershellcrypto from '../public/images/works/powershellcrypto.png'
 
+class DownloadLink extends React.Component {
+  render() {
+      return (
+          <a href={this.props.src} download>{this.props.children}</a>
+      )
+  }
+}
+
+class MyComponent extends React.Component {
+  render() {
+      return (
+          <DownloadLink src="/public/cv.pdf">Click Here</DownloadLink>
+      )
+  }
+}
 
 const Works = () => (
   <Layout title="Works">
