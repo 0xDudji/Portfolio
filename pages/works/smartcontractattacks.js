@@ -89,7 +89,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
             <Badge mr={2}>Unsafe Delegatecall</Badge>
-            Don't hand power to the unknown.
+            Don&apos;t hand power to the unknown.
             <br></br>
         </ListItem>
         <ListItem>
