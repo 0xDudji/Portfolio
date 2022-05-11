@@ -96,6 +96,7 @@ const Work = () => (
             <Badge mr={2}>Insecure Source of Randomness</Badge>
             Is it really that random?
             <br></br>
+            <br></br>
         </ListItem>
         <WorkImage src="/images/works/smartcontractattackspdf.png" alt="" />
       </UnorderedList>
