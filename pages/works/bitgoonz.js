@@ -86,7 +86,7 @@ const Work = () => (
           Made to easily analyze and anticipate trends. The EMA ribbon will be brown during a bull market and black during a bear market. Comes with robust mathematical support and resistance, the symbols correspond to various indications.
           <br></br>
           <br></br>
-          <WorkImage src="/images/works/Cycleribbon.png" alt="" />
+          <WorkImage src="/images/works/CycleRibbon.png" alt="" />
           <br></br>
       </ListItem>
       </UnorderedList>
