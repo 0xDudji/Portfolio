@@ -110,7 +110,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Technical Secundary Education (Koninklijke Atheneum Geel)
+          Technical Secondary Education (Koninklijke Atheneum Geel)
         </BioSection>
       </Section>
 
