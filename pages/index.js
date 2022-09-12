@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
+import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5'
 import { SiTryhackme, } from "react-icons/si";
 import { ImBooks } from "react-icons/im";
 import Image from 'next/image'
@@ -157,6 +157,17 @@ const Home = () => (
           On the web
         </Heading>
         <List>
+        <ListItem>
+            <Link href="https://twitter.com/Dudji" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @skemil
+              </Button>
+            </Link>
+          </ListItem>
         <ListItem>
             <Link href="https://tryhackme.com/p/skemil" target="_blank">
               <Button
