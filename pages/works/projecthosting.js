@@ -67,7 +67,7 @@ const Work = () => (
         
 
       <Center> <Heading as="h3" variant="section-title">
-          What am I working on right now?
+          Components
         </Heading>
         </Center>
         <Meta>1</Meta>

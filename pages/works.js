@@ -47,15 +47,6 @@ const Works = () => (
           A service where I help new miners setup their rigs. Miners are essentially getting paid for their work as auditors.
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem
-            id="cyberbullet"
-            title="Cyberbullet"
-            thumbnail={cb}
-          >
-            Work in progress.
-          </WorkGridItem>
-        </Section>
 
         
 

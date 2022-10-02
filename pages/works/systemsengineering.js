@@ -88,41 +88,6 @@ const Work = () => (
         <WorkImage src="/images/works/setup.png" alt="" />
         
         </UnorderedList>
-        <Heading as="h4" fontSize={16} my={6}>
-        <Center>My part</Center>
-      </Heading>
-      <span>Unfortunately, I could not experience the final presentation of our product due to testing positive for covid. I did however still try my best to help my team during the quarantaine. Some of the work/helping I did:</span>
-        <UnorderedList my={4}>
-        <ListItem>        
-          <Badge mr={2}>Potentional concepts</Badge>
-      </ListItem>
-        <ListItem>        
-          <Badge mr={2}>Stakeholder Analysis</Badge>
-      </ListItem>
-      <ListItem>        
-          <Badge mr={2}>non functional requirements</Badge>
-      </ListItem>
-      <ListItem>        
-          <Badge mr={2}>User stories</Badge>
-      </ListItem>
-      <ListItem>        
-          <Badge mr={2}>Backlog</Badge>
-      </ListItem>
-      <ListItem>        
-          <Badge mr={2}>Crawl, Walk, Run Fly</Badge>
-      </ListItem>
-      <br></br>
-      <span>During the project week and quarantaine:</span>
-      <br></br>
-      <br></br>
-      <ListItem>        
-          <Badge mr={2}>Solcast API</Badge>
-      </ListItem>
-      <ListItem>        
-          <Badge mr={2}>Website front-end</Badge>
-      </ListItem>
-
-      </UnorderedList>
     </Container>
   </Layout>
 )

@@ -139,7 +139,7 @@ const Home = () => (
           <List spacing={3}>
   <ListItem>
     <ListIcon as={HiAcademicCap} color='teal.500' />
-    Graduate with a bachelor's degree in <span style={{fontWeight: 'bold'}}>Cloud &#38; Cybersecurity</span>.
+    Graduate with a bachelor&apos;s degree in <span style={{fontWeight: 'bold'}}>Cloud &#38; Cybersecurity</span>.
   </ListItem>
   <ListItem>
     <ListIcon as={ImBooks} color='teal.500' />
