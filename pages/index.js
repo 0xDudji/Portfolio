@@ -79,12 +79,12 @@ const Home = () => (
         </Heading>
         <Paragraph>
         From an early age,
-        I have always been involved with computers and technology.        
+        I have always been involved with science and technology.        
         My name is Emil. Born in Urus-Martan (Урус-Мартан), Russia. 
         <br></br>
         <br></br>
         I like to educate and improve myself. 
-        Not only on a computer science related level. I have great interests for blockchain, solidity, smart-contracts and decentralized finance.
+        Not only on a computer science related level. Besides cybersecurity, I have great interests for blockchain, solidity, smart-contracts and decentralized finance.
        {' '}
           {/* <NextLink href="/works/inkdrop" scroll={false}> */}
             {/* <Link>LINK</Link> */}
@@ -129,7 +129,7 @@ const Home = () => (
 
       <Section delay={0.9}>
         <Heading as="h3" variant="section-title">
-          In 2022 I will
+          Plan for 2022-2023
         </Heading>
         <Paragraph>
           {/* {''} */}
@@ -139,14 +139,11 @@ const Home = () => (
           <List spacing={3}>
   <ListItem>
     <ListIcon as={HiAcademicCap} color='teal.500' />
-    Pass all my courses so I can finish my last year abroad.
+    Graduate with a bachelor's degree in <span style={{fontWeight: 'bold'}}>Cloud &#38; Cybersecurity</span>.
   </ListItem>
   <ListItem>
     <ListIcon as={ImBooks} color='teal.500' />
-    Achieve the {''}
-           <Link href="https://www.comptia.org/certifications/pentest" target="_blank">
-          CompTIA PenTest+
-          </Link> certification.
+    Achieve the {''}<span style={{fontWeight: 'bold'}}>IBM Cybersecurity Analyst Professional Certificate</span>.
   </ListItem>
 </List>
         </Paragraph>
@@ -164,7 +161,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @skemil
+                @dudji
               </Button>
             </Link>
           </ListItem>
