@@ -27,65 +27,93 @@ const Work = () => (
         <br></br>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>The team and roles</Center>
-        
-      </Heading>
-      <span>I will be working on this project with 5 other very smart students.</span>
-      <UnorderedList my={4}>
-        <ListItem>
-            <Badge mr={2}>Brent Druyts</Badge>
-            Developer, loading balancing and Security.
-            <br></br>
-        </ListItem>
-        <ListItem>
-            <Badge mr={2}>Siebe Van Rompay</Badge>
-            Developer, back up and containerize.
-            <br></br>
-        </ListItem>
-        <ListItem>
-            <Badge mr={2}>Emil Dudayev</Badge>
-            Developer and monitoring.
-            <br></br>
-        </ListItem>
-        <ListItem>
-            <Badge mr={2}>Timo Van Litsenborg</Badge>
-            Developer, web application, user interface and database.
-            <br></br>
-        </ListItem>
-        <ListItem>
-            <Badge mr={2}>Laurens Mattheus</Badge>
-            Scrum master/developer, automatisation and file transfer.
-            <br></br>
-        </ListItem>
-        <ListItem>
-            <Badge mr={2}>Illias Latifine</Badge>
-            Time keeper/developer, file transfer and documentation.
-            <br></br>
-        </ListItem>
-        </UnorderedList>
-        
-
       <Center> <Heading as="h3" variant="section-title">
           Components
         </Heading>
         </Center>
         <Meta>1</Meta>
-          <BioYear>Monitoring</BioYear> 
+          <BioYear>Virtualization</BioYear> 
         <Paragraph>
-        For monitoring, we are going to use Zabbix. Zabbix is an open source monitoring solution for network monitoring and application monitoring of millions of metrics.
-        </Paragraph>
+          Vmware        </Paragraph>
         <br></br>
         <Meta>2</Meta>
-        <BioYear>Testing</BioYear> 
+        <BioYear>OS</BioYear> 
         <Paragraph>
-        Zabbix has been succesfully implemented on test servers.
+        Ubuntu
         </Paragraph>
         <br></br>
         <Meta>3</Meta>
-        <BioYear>Containerize</BioYear> 
+        <BioYear>Webserver</BioYear> 
         <Paragraph>
-        Right now, I am trying to figure out how to setup a docker dontainer for monitoring with Zabbix. When that&apos;s done, my team and I can start putting all the components together.
+Apache / The user interface is a php page where the customer can create an
+account, log in and create a domain from which he can select the
+desired php version can select. 
+        </Paragraph>
+        <br></br>
+        <Meta>4</Meta>
+        <BioYear>Containerization</BioYear> 
+        <Paragraph>
+          Docker / For each website, we have two docker containers running on our docker
+host. These two containers are loadbalanced by a Haproxy container
+which also sends requests to the appropriate website cluster.
+        </Paragraph>
+        <br></br>
+        <Meta>5</Meta>
+        <BioYear>Configuration Management</BioYear> 
+        <Paragraph>
+          Puppet / If we change the configuration on multiple devices we are not going to connect to each
+device and then enter the change manually. The change in the
+configuration is synchronized through a configuration server (Puppetmaster).
+        </Paragraph>
+        <br></br>
+        <Meta>6</Meta>
+        <BioYear>Monitoring</BioYear> 
+        <Paragraph>
+          Zabbix / With this monitoring tool
+we have a good overview of all devices and all websites and
+we can quickly intervene if necessary.
+        </Paragraph>
+        <br></br>
+        <Meta>7</Meta>
+        <BioYear>File Transfer</BioYear> 
+        <Paragraph>
+          FileZilla (SFTP) / Each user will be given login credentials to access the Web server's file storage. This access will be over the SSL secured
+SFTP protocol, which is SSH-based. 
+        </Paragraph>
+        <br></br>
+        <Meta>8</Meta>
+        <BioYear>Database Managing</BioYear> 
+        <Paragraph>
+          Phpmyadmin / Each user has a SQL container which is accessible the address
+db.bakkerdruyts.teamccs1.be. Then the user can login with
+username and as password usernameassword. This is a
+default password that the user must change immediately.
+        </Paragraph>
+        <br></br>
+        <Meta>9</Meta>
+        <BioYear>Backup</BioYear> 
+        <Paragraph>
+          Rclone / If a user accidentally deletes their files or the data center is
+down. Then we can quickly set up all the files and devices back up thanks to
+our backups in the Cloud. We backup all users' files and
+all configuration of our systems to the Cloud so that at any time we have a
+backup of all files and can restore them when needed.
+        </Paragraph>
+        <br></br>
+        <Meta>10</Meta>
+        <BioYear>Security</BioYear> 
+        <Paragraph>
+        How is our system secured? We have applied multiple layers of security
+applied to make our system as secure as possible. We have implemented a
+password policy that ensures users and IT staff must use passwords of at least 10 characters.
+
+We have also ensured that all users can only access their
+folder structure and only have permissions to their files.
+Next, we also secured our various devices by securing the
+Operating System as secure as possible using 5
+topics/tools.
+For example, here we use Host firewall rules, fail2ban, banner, ...
+
         </Paragraph>
 
     </Container>
