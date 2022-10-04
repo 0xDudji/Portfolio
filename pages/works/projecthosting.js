@@ -77,7 +77,7 @@ we can quickly intervene if necessary.
         <Meta>7</Meta>
         <BioYear>File Transfer</BioYear> 
         <Paragraph>
-          FileZilla (SFTP) / Each user will be given login credentials to access the Web server's file storage. This access will be over the SSL secured
+          FileZilla (SFTP) / Each user will be given login credentials to access the Web server&apos;s file storage. This access will be over the SSL secured
 SFTP protocol, which is SSH-based. 
         </Paragraph>
         <br></br>
@@ -95,7 +95,7 @@ default password that the user must change immediately.
         <Paragraph>
           Rclone / If a user accidentally deletes their files or the data center is
 down. Then we can quickly set up all the files and devices back up thanks to
-our backups in the Cloud. We backup all users' files and
+our backups in the Cloud. We backup all users files and
 all configuration of our systems to the Cloud so that at any time we have a
 backup of all files and can restore them when needed.
         </Paragraph>
