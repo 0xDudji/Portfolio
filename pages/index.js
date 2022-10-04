@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5'
+import {IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5'
 import { SiTryhackme, } from "react-icons/si";
 import { ImBooks } from "react-icons/im";
 import Image from 'next/image'
@@ -193,17 +193,6 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoLinkedin />}
-              >
-                @skemil
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/skemil" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
               >
                 @skemil
               </Button>
