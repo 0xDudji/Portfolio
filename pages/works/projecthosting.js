@@ -1,9 +1,20 @@
-import { Container, Badge, List, ListItem, Heading, Center} from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, Heading, Center, Link} from '@chakra-ui/react'
 import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import Paragraph from '../../components/paragraph'
 import {BioYear } from '../../components/bio'
+import { saveAs } from "file-saver";
+
+const saveFile = () => {
+  saveAs(
+    "projecthosting.pdf",
+    "projecthosting.pdf"
+  );
+};
+
+
+
 
 
 const Work = () => (
@@ -21,6 +32,13 @@ const Work = () => (
           
           <Meta>Mission</Meta>
           With our online hosting service, students of the second and third year APP/AI should be able to host their PHP project/website on our website.
+        </ListItem>
+        <ListItem>
+          
+          <Meta>Results</Meta>
+          <Link href="javascript:void(0)" onClick={saveFile}>
+          Final documentation (in Dutch)
+          </Link>
         </ListItem>
         <br></br>
         <WorkImage src="/images/works/projecthostingdiagram.png" alt="" />
