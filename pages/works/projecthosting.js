@@ -1,4 +1,4 @@
-import { Container, Badge, List, ListItem, Heading, Center, UnorderedList} from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, Heading, Center} from '@chakra-ui/react'
 import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
