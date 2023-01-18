@@ -42,7 +42,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Emil Dudayev
+            Emil D.
           </Heading>
           <p>Cloud &#38; Cybersecurity student at Thomas More.</p>
         </Box>
@@ -80,7 +80,7 @@ const Home = () => (
         <Paragraph>
         From an early age,
         I have always been involved with science and technology.        
-        My name is Emil. Born in Urus-Martan (Урус-Мартан), Russia. 
+        My name is Emil. Born in Urus-Martan (Урус-Мартан), Chechnya Russia. 
         <br></br>
         <br></br>
         I like to educate and improve myself. 
