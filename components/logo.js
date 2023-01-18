@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Emil D.
+            Skemil
           </Text>
         </LogoBox>
       </a>
