@@ -128,7 +128,7 @@ const Home = () => (
 
       <Section delay={0.9}>
         <Heading as="h3" variant="section-title">
-          Plan for 2022-2023
+          Plan for 2023-2024
         </Heading>
         <Paragraph>
           {/* {''} */}
