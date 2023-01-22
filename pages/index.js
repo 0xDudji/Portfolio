@@ -13,7 +13,7 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import {IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5'
@@ -44,7 +44,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Emil D.
           </Heading>
-          <p>Cloud &#38; Cybersecurity student at Thomas More.</p>
+          <p>Final year Cloud &#38; Cybersecurity student.</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,7 +80,6 @@ const Home = () => (
         <Paragraph>
         From an early age,
         I have always been involved with science and technology.        
-        My name is Emil. Born in Urus-Martan (Урус-Мартан), Chechnya Russia. 
         <br></br>
         <br></br>
         I like to educate and improve myself. 
@@ -100,7 +99,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Education
         </Heading>
@@ -112,7 +111,7 @@ const Home = () => (
           <BioYear>2018</BioYear>
           Technical Secondary Education (Koninklijke Atheneum Geel)
         </BioSection>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -143,7 +142,15 @@ const Home = () => (
   </ListItem>
   <ListItem>
     <ListIcon as={ImBooks} color='teal.500' />
-    Achieve the {''}<span style={{fontWeight: 'bold'}}>IBM Cybersecurity Analyst Professional Certificate</span>.
+    Learn C++.
+  </ListItem>
+  <ListItem>
+    <ListIcon as={ImBooks} color='teal.500' />
+    Learn Assembly Language.
+  </ListItem>
+  <ListItem>
+    <ListIcon as={ImBooks} color='teal.500' />
+    Get into {''}<span style={{fontWeight: 'bold'}}>Malware Development</span> and <span style={{fontWeight: 'bold'}}>Reverse Engineering.</span>
   </ListItem>
 </List>
         </Paragraph>
