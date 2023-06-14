@@ -20,7 +20,7 @@ import {BioYear } from '../components/bio'
 
 
 const Home = () => (
-<Layout title="Bitgoonz">
+<Layout title="Internship">
     <Container>
 
       <Heading as="h2" variant="page-title">
