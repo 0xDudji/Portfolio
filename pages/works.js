@@ -8,6 +8,8 @@ import jm from '../public/images/works/jm.png'
 import powershellcrypto from '../public/images/works/powershellcrypto.png'
 import projecthosting from '../public/images/works/projecthosting.png'
 import smartcontractattacks from '../public/images/works/smartcontractattacks.png'
+import fractal from '../public/images/works/fractal.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -17,6 +19,11 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="fractal" title="Fractal Studios" thumbnail={fractal}>
+          Webdesign Agency.
+          </WorkGridItem>
+        </Section>
       <Section>
           <WorkGridItem id="projecthosting" title="Project hosting" thumbnail={projecthosting}>
           A website hosting platform.
