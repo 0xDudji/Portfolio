@@ -3,8 +3,7 @@ import {
   Container,
   Heading,
   Box,
-  Button,
-  chakra
+  Button
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
