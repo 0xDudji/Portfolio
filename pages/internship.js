@@ -125,17 +125,17 @@ const Home = () => (
         <WorkImage src="/images/results.png" alt="" />
 
         <Box align="center" my={4}>
+          <a href="https://www.dropbox.com/s/4dk8jh28m7upgb3/Deloitte%20Internship%20Project%20Plan%20and%20Realization.pdf?dl=0" scroll={false}target="_blank" rel="noopener noreferrer">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mx={1}>
+              Project Plan and Realization
+            </Button>
+          </a>
           <NextLink href="/about" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mx={1}>
-              Project Plan
+              Pyplot Manual
             </Button>
           </NextLink>
-          <NextLink href="/about" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mx={1}>
-              Realization
-            </Button>
-          </NextLink>
-          <a href="https://www.dropbox.com/s/liq8gjklau15ljk/Internship_Selfreflection.pdf?dl=0" scroll={false} target="_blank" rel="noopener noreferrer" >
+          <a href="https://www.dropbox.com/s/liq8gjklau15ljk/Internship_Selfreflection.pdf?dl=0" scroll={false} target="_blank" rel="noopener noreferrer">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" mx={1} >
               Self Evaluation
             </Button>
