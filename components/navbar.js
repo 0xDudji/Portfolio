@@ -81,6 +81,9 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <LinkItem href="/about" path={path}>
+            About me
+          </LinkItem>
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
@@ -89,6 +92,9 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem href="" onClick={saveFile} path={path}>
           Curriculum vitae
+          </LinkItem>
+          <LinkItem href="/internship"  path={path}>
+          Internship
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -106,6 +112,9 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>Homepage</MenuItem>
                 </NextLink>
+                <NextLink href="/about" passHref>
+                  <MenuItem as={Link}>About me</MenuItem>
+                </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
@@ -114,6 +123,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/experience" passHref>
                   <MenuItem as={Link} onClick={saveFile}>Curriculum vitae</MenuItem>
+                </NextLink>
+                <NextLink href="/experience" passHref>
+                  <MenuItem as={Link}>Internship</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}

@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Skemil
+            Home
           </Text>
         </LogoBox>
       </a>
