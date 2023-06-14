@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import {
   Container,
