@@ -83,7 +83,7 @@ const Home = () => (
         <br></br>
         <br></br>
         I like to educate and improve myself. 
-        Not only on a computer science related level. Besides cybersecurity, I have great interests for blockchain, solidity, smart-contracts and decentralized finance. Currently, I am expanding my knowledge in the field of game-hacking.  I've taken up this interest to delve deeper into the reverse engineering aspect behind it.
+        Not only on a computer science related level. Besides cybersecurity, I have great interests for blockchain, solidity, smart-contracts and decentralized finance. Currently, I am expanding my knowledge in the field of game-hacking.  I`&apos;`ve taken up this interest to delve deeper into the reverse engineering aspect behind it.
        {' '}
           {/* <NextLink href="/works/inkdrop" scroll={false}> */}
             {/* <Link>LINK</Link> */}
@@ -123,7 +123,7 @@ const Home = () => (
             {/* Drawing */}
           {/* </Link> */}
            I enjoy most of my time being outdoors. I practise boxing and Judo. When forced indoors, 
-          I listen to podcasts, specifically Darknet Diaries, which Is my favorite at the moment and I highly recommend it to everyone. Additionally, I'm a fan of sci-fi and fantasy genre movies
+          I listen to podcasts, specifically Darknet Diaries, which Is my favorite at the moment and I highly recommend it to everyone. Additionally, I`&apos;`m a fan of sci-fi and fantasy genre movies
         </Paragraph>
       </Section>
 

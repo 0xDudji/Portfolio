@@ -11,11 +11,6 @@ import Paragraph from '../components/paragraph'
 // import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import Image from 'next/image'
-
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
 
 const Home = () => (
   <Layout>
