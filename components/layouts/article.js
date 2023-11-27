@@ -20,7 +20,7 @@ const Layout = ({ children, title }) => (
     <>
       {title && (
         <Head>
-          <title>{title} - Emil Dudayev</title>
+          <title>{title} - Emin Dudayev</title>
           <meta name="twitter:title" content={title} />
           <meta property="og:title" content={title} />
         </Head>

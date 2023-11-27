@@ -25,6 +25,17 @@ const Work = () => (
       </P>
 
       <List ml={4} my={4}>
+      <ListItem>
+          <Meta>Website</Meta>
+          <span>Visit <Link href="https://fractalstudios.be" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+              >
+                Fractal Studios
+              </Button>
+            </Link>..</span>
+        </ListItem>
         <ListItem>
           <Meta>Mission</Meta>
           <span>To empower businesses and individuals with online experiences through web design solutions.</span>
