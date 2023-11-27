@@ -19,7 +19,7 @@ const Home = () => (
           Welcome!
         </Heading>
         <Paragraph>
-        Hi there! Welcome to the homepage of a cybersecurity student. I have your IP, and I&apos;m sending viruses as we speak.
+        Hi there! Welcome to the homepage of a cybersecurity student. I have your IP, and I&apos;m sending viruses as we speak (Just kidding).
        {' '}
           {/* <NextLink href="/works/inkdrop" scroll={false}> */}
             {/* <Link>LINK</Link> */}
