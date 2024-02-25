@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 // import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from 'react-icons/io5'
+import {IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
 import { SiTryhackme, } from "react-icons/si";
 import { ImBooks } from "react-icons/im";
 import Image from 'next/image'
