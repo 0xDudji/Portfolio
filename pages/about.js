@@ -163,17 +163,6 @@ const Home = () => (
         </Heading>
         <List>
         <ListItem>
-            <Link href="https://twitter.com/Dudji" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @dudji
-              </Button>
-            </Link>
-          </ListItem>
-        <ListItem>
             <Link href="https://tryhackme.com/p/skemil" target="_blank">
               <Button
                 variant="ghost"
