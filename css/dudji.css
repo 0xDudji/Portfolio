@@ -1567,6 +1567,7 @@ a {
   height: auto;
   max-height: 70vh;
   text-decoration-color: #00e0;
+  display: block;
   position: relative;
   overflow: hidden;
 }
@@ -1608,6 +1609,7 @@ a {
   flex: none;
   width: 100vw;
   height: 100vh;
+  display: block;
 }
 
 .v-line-3 {
@@ -1878,14 +1880,6 @@ a {
   background-color: var(--background);
 }
 
-.section-3 {
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-  display: flex;
-}
-
 .section-success {
   justify-content: center;
   align-items: center;
@@ -1893,19 +1887,6 @@ a {
   padding-top: 10vh;
   padding-bottom: 10vh;
   display: flex;
-}
-
-.scramble-text-copy.text-size-xl.text-weight-light {
-  color: #fff;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  align-items: center;
-  font-family: Montserrat, sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
-  line-height: 60px;
-  text-decoration: none;
-  display: block;
 }
 
 .success-title.text-size-xl.text-weight-light {
@@ -2281,14 +2262,6 @@ a {
     padding-left: 20px;
   }
 
-  .scramble-text-copy {
-    font-size: 2rem;
-  }
-
-  .scramble-text-copy.text-size-xl.text-weight-light {
-    text-align: center;
-  }
-
   .success-title {
     font-size: 2rem;
   }
@@ -2489,14 +2462,6 @@ a {
 
   .work_item {
     width: 100%;
-  }
-
-  .scramble-text-copy {
-    font-size: 1.5rem;
-  }
-
-  .scramble-text-copy.text-size-xl.text-weight-light {
-    font-size: 20px;
   }
 
   .success-title {
@@ -2849,17 +2814,6 @@ a {
 
   .section-success {
     padding-left: 0;
-  }
-
-  .scramble-text-copy {
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
-
-  .scramble-text-copy.text-size-xl.text-weight-light {
-    margin-left: -5%;
-    font-size: 2rem;
-    display: block;
   }
 
   .success-title {
