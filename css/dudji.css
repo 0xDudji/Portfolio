@@ -1962,6 +1962,20 @@ a {
   inset: 0% 0% auto;
 }
 
+.contact_form {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.contact12_form-copy {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
 @media screen and (max-width: 991px) {
   .nav {
     display: block;
