@@ -931,7 +931,13 @@ a {
   padding: 1.125rem 1.5rem 1rem;
   font-weight: 700;
   line-height: 1;
+  transition: all .2s;
   display: flex;
+}
+
+.button-2:hover {
+  background-color: var(--dudji-red);
+  transform: scale(1.03);
 }
 
 .button-2.is-secondary {
@@ -941,11 +947,22 @@ a {
   background-color: #0000;
 }
 
+.button-2.is-secondary:hover {
+  background-color: var(--dudji-red);
+  transform: scale(1.03);
+}
+
 .button-2.first {
   background-color: var(--dudji-yellow);
   font-family: Montserrat, sans-serif;
   font-size: var(--font-size-3);
   letter-spacing: 1px;
+  transition: all .2s;
+}
+
+.button-2.first:hover {
+  background-color: var(--dudji-red);
+  transform: scale(1.03);
 }
 
 .success-text {
